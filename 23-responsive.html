@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Responsive website
+	</title>
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+</head>
+<body>
+	<p>Using width 100% with style or without style</p>
+<!-- 	<img src="meow.jpg" style="width: 100%;">
+	<img src="meow.jpg" width="100%"> -->
+
+
+	<p>Control img width by default = max size of picture</p>
+	<img src="meow.jpg" style="max-width: 100%;">
+
+	<picture>
+		<source srcset="meow.jpg" media="(max-width: 300px)">
+		<source srcset="pic.jpeg" media="(max-width: 700px)">
+		<source srcset="apple-products.jpg" media="(max-width: 1400px)">
+		<img src="https://picsum.photos/200/300" alt="default picture">
+	</picture>
+
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<p>
+</body>
+</html>
