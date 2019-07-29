@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	</title>
+	<style type="text/css">
+		.d {
+			color: red;
+		}
+		.t { 
+			color: blue; 
+		}
+	</style>
+</head>
+<body>
+	<p class="d">rwew</p>
+	<p class="m">rwew</p>
+	<p class="t">rwew</p>
+	<p class="d">rwew</p>
+	<p class="m">rwew</p>
+	<p class="m">rwew</p>
+	<p class="t">rwew</p>
+	<p class="d">rwew</p>
+	<button onclick="disableContent()">Click to hide items</button>
+	<script type="text/javascript">
+		function disableContent() {
+			let m = document.getElementsByClassName('m');
+			for(let x of m) {
+				x.style.color = 'orange';
+			}
+		}
+	</script>
+</body>
+</html>

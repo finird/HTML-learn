@@ -1,0 +1,22 @@
+body {
+	background-color: #222;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	margin: 8px 16px	;
+	font-family: verdena;
+	transition: 0.4s;
+	text-align: center;
+	border: 0.2px #BBB solid;
+}
+
+p	{
+	font-size: 1.2;
+}
+
+h1:hover {
+	color: powderblue;
+}

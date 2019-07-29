@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body style="background-image: url('apple-products.jpg');">
+	<div style="color: white">Cute cat picture will float to right of the text. This paragraph I try to writing some thing more text to see how float attribute of style CSS work. So we can use it to control position of Image or anything in browser visible view</div>
+	<img src="meow.jpg" alt="Cute cat" style="width:100%, height:100%; float:right;">
+
+	<img src="pic.jpeg" alt="Shape" usemap="#shape" style="float:right;">
+
+	<map name="shape">
+			<area shape="rect" coords="382, 165, 271, 56" href="meow.jpg">
+			<area shape="circle" coords="143, 113, 60" href="pic.jpeg">
+	</map>
+
+	<picture>
+		<source media="(min-width: 1366px)" srcset="apple-products.jpg">
+		<source media="(min-width: 768px)" srcset="pic.jpeg">
+		<source media="(min-width: 420px)" srcset="workplace.jpg">
+		<img src="meow.jpg" style="width: 100%; height: 100%;">
+	</picture>
+
+</body>
+</html>
